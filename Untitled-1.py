@@ -1,0 +1,12 @@
+python main.py \
+--model c3d  \
+--result_path  results \
+--batch_size 32 \
+--learning_rate 0.001 \
+--sample_duration 16 \
+--n_epochs 20 \
+--pretrain_path kinetics_c3d_1.0x_RGB_16_best.pth \
+--pretrain_dataset kinetics \
+--dataset ipn \
+--model_depth 10 \
+--ft_begin_index 5
